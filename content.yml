@@ -1,0 +1,36 @@
+welcome: # this is the #welcome bloc referenced in index.js
+  - typing: true
+    text: # Picks one randomly
+      - Hola {{user.first_name}}
+      - Buen día {{user.first_name}}
+  - text: Soy María José, ejecutiva de Tu Crédito Hipotecario.CL
+    typing: 2s
+  - text:  Con nosotros podrás encontrar el crédito con la cuota más baja del mercado.
+    typing: true
+  - wait: 3s
+  - text: Dime, cómo puedo ayudarte?
+    typing: 1s
+
+goodbye:
+  - text: You are leaving because of reason {{reason}}
+    typing: 2s
+  - Hope to see you back again soon! # if no other properties, you can just send a strings
+
+bancos:
+  - text: Cotizamos tu crédito con diferentes Bancos como el Santander, Banco de Chile, Scotiabank. # if no other properties, you can just send a strings
+    typing: 2s
+
+cae:
+  - text: La CAE es la Carga Anual Equivalente.
+  - "Resume todas las variables involucradas en el crédito: "
+  - La tasa de interés, el plazo, los seguros y los gastos operacionales.
+  - Por lo que si comparamos el crédito A que tiene una CAE de 3.98% frente al crédito B que tiene una CAE de 4.21%, entonces el crédito A es más barato.
+
+conviene:
+  - Porque tenemos acuerdos preferenciales que nos permiten negociar con múltiples entidades financieras al mismo tiempo, y así elegir el que más te conviene.
+  - Además, en caso de que nuestro crédito no sea mejor que el que ya tienes, te devolveremos el dinero. No tienes nada que perder!
+
+usada:
+  - Por el momento no negociamos créditos para viviendas usadas
+  - Pero dentro de pocos meses sí.
+  - Atento a nuestros anuncios!
